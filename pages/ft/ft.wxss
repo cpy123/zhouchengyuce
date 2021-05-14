@@ -1,0 +1,11 @@
+/* miniprogram/pages/ft/ft.wxss */
+.container{
+  width: 750rpx;
+  height:1200rpx;
+  background: url('http://imgb9.photophoto.cn/20141007/zhouchenggongyetuzhitupian-08493766_3.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn2{
+  margin-top:600rpx;
+}

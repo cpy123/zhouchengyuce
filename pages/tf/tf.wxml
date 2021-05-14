@@ -1,0 +1,27 @@
+<!--miniprogram/pages/tf/tf.wxml-->
+<view class="container">
+<view class="titleContainer">
+  <text class="weui-article__h1">1.选择要查看的轴承</text>
+</view>
+<view class="weui-form__control-area">
+			<view class="weui-cells__group weui-cells__group_form">
+				<view class="weui-cells weui-cells_radio">
+                    <radio-group class="radio-group" bindchange="radioChange">
+                        <label class="weui-cell weui-cell_active weui-check__label" wx:for="{{items}}" wx:key="name">
+                            <view class="weui-cell__bd">
+                                <view>{{item.value}}</view>
+                            </view>
+                            <view class="weui-cell__ft">
+                                <radio
+                                    class="weui-check"
+                                    value="{{item.name}}"
+                                    checked="{{item.checked}}"
+                                />
+                                <i class="weui-icon-checked"></i>
+                            </view>
+                        </label>
+                    </radio-group>
+				</view>
+			</view>
+		</view>
+</view>

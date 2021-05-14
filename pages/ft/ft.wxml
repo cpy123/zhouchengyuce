@@ -1,0 +1,9 @@
+<!--miniprogram/pages/ft/ft.wxml-->
+<view class="container">
+<view class="titleContainer">
+  <text class="weui-article__h1">2.特征提取</text>
+</view>
+<view class='btn2'>
+    <button class='weui-btn weui-btn_primary' style="bottom:1%" bindtap="tap2">查看结果</button>
+</view>
+</view>

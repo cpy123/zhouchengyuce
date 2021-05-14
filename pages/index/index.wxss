@@ -1,0 +1,15 @@
+/* miniprogram/pages/index/index.wxss */
+.container{
+  width: 750rpx;
+  height:1100rpx;
+  background: url('http://imgb9.photophoto.cn/20141007/zhouchenggongyetuzhitupian-08493766_3.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.button{
+  margin-top: 50px;
+  width: 90% !important;
+  border:1px solid #ccc;
+}
+.btn1{
+  margin-top:750rpx;
+}

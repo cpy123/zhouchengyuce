@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/condition/condition",
+    "pages/ft/ft",
+    "pages/tf/tf",
+    "pages/result/result"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#B0E0E6",
+    "navigationBarTitleText": "轴承预测",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "实验",
+        "iconPath": "images/anli.png",
+        "selectedIconPath": "images/anli2.png"
+      },
+      {
+        "pagePath": "pages/condition/condition",
+        "text": "工况",
+        "iconPath": "images/gk.png",
+        "selectedIconPath": "images/gk2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

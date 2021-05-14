@@ -1,0 +1,10 @@
+<!--miniprogram/pages/index/index.wxml-->
+<!-- 主页面轴承预测 -->
+<view class="container">
+  <view class="weui-article__h1">
+    <view>轴承预测小程序</view>
+  </view>
+  <view class="btn1">
+  <button bindtap="navToPre" class="weui-btn weui-btn_primary">点击进入轴承预测实验</button>
+  </view>
+</view>
